@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server'
 
 export async function GET(request: Request) {
   const check = await paygateNext(request, {
-    apiKey: 'pg_32e349a1-b2fa-4e1b-b0df-271221ed610b',
+    apiKey: 'pg_7e3de203-977c-478c-8000-a8c9a14148eb',
     price: '0.001',
     payTo: '0xBeDfd7F12665594Da5bC466727d5DBAf1C1F9F11'
   })
