@@ -5,7 +5,7 @@ const app = express()
 
 app.use(paygate({
   price: '0.001',
-  payTo: '0xA1B320D8061357efa286Af2629DF6AC554C05d6E'
+  payTo: 'dhruvieiei.base.eth'
 }))
 
 app.get('/cricket', (req, res) => {
